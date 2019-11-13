@@ -62,11 +62,11 @@
 <h3 id="proj-in-rstudio">proj in RStudio</h3>
 <p>RStudio를 쓴다면 이럴 때 project 기능을 활용하면 좋다. 작업 중인 폴더의 이름이 <code>YOUR_PROJECT_NAME</code>이었다고 하자. 이 폴더 내에 프로젝트를 생성하면 해당 폴더에 <code>YOUR_PROJECT_NAME.Rproj</code>라는 파일이 생긴다. 이 파일을 실행하면 RStudio에서 프로젝트가 열린다. 그리고 <code>getwd()</code>를 실행해보자. 프로젝트 생성은</p>
 <p>RStudio → File → New Project 를 실행하면 아래와 같은 화면이 뜬다.</p>
-<p><img src="assets/etc/head-of-r/preamble_1.PNG" alt=""></p>
+<p><img src="https://github.com/anarinsk/lie-head_r/blob/master/assets/etc/head-of-r/preamble_1.png?raw=true" alt=""></p>
 <p>새 폴더에 프로젝트를 생성할 경우에는 "New Directory"를 기존 폴더를 프로젝트로 잡으려면 "Existing Directory"를 선택하면 된다. "Version Control"은 당분간 무시하도록 하자.</p>
 <p>해당 프로젝트가 위치한 최상위 폴더가 기본 폴더로 잡힌다. 이제 코드 안에서 걱정 없이 하위 폴더를 인용할 수 있다.</p>
 <p>한번 로딩했던 프로젝트는 그림에서 보듯이 RStudio에서 빠르고 쉽게 이동할 수 있다.</p>
-<p><img src="assets/etc/head-of-r/preamble_2.PNG" alt=""></p>
+<p><img src="https://github.com/anarinsk/lie-head_r/blob/master/assets/etc/head-of-r/preamble_2.png?raw=true" alt=""></p>
 <h3 id="here-패키지">here 패키지</h3>
 <p>RStudio의 프로젝트와 짝꿍으로 쓰기 좋은 패키지가 <a href="https://github.com/r-lib/here">here</a> 패키지다.  패키지 페이지에서 보듯이 기본 폴더를 기준으로 하위 폴더 인용을 쉽게 도와준다.</p>
 <pre class=" language-r"><code class="prism  language-r">library<span class="token punctuation">(</span>here<span class="token punctuation">)</span>
