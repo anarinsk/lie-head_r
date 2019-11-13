@@ -69,7 +69,7 @@ RStudio를 쓴다면 이럴 때 project 기능을 활용하면 좋다. 작업 �
 
 RStudio &rarr; File &rarr; New Project 를 실행하면 아래와 같은 화면이 뜬다. 
 
-![](assets/etc/head-of-r/preamble_1.PNG)
+![](https://github.com/anarinsk/lie-head_r/blob/master/assets/etc/head-of-r/preamble_1.png?raw=true)
 
 새 폴더에 프로젝트를 생성할 경우에는 "New Directory"를 기존 폴더를 프로젝트로 잡으려면 "Existing Directory"를 선택하면 된다. "Version Control"은 당분간 무시하도록 하자. 
 
@@ -77,7 +77,7 @@ RStudio &rarr; File &rarr; New Project 를 실행하면 아래와 같은 화면�
 
 한번 로딩했던 프로젝트는 그림에서 보듯이 RStudio에서 빠르고 쉽게 이동할 수 있다. 
 
-![](assets/etc/head-of-r/preamble_2.PNG)
+![](https://github.com/anarinsk/lie-head_r/blob/master/assets/etc/head-of-r/preamble_2.png?raw=true)
 
 ### here 패키지
 
@@ -110,5 +110,5 @@ here::here("R", "here.R")
 * https://www.tidyverse.org/articles/2017/12/workflow-vs-script/
 * https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMjMwODU0NV19
+eyJoaXN0b3J5IjpbMjE0Njg5MTE3NSwxNDAyMzA4NTQ1XX0=
 -->
